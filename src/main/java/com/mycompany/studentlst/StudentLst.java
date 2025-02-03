@@ -25,7 +25,10 @@ public class StudentLst {
     public static String printOutput(Student[] students){
         String str="";
         
-        //To Do 03: complete the implementation of this method  
+        //To Do 03: complete the implementation of this method
+        for(Student s: students){
+            System.out.println("Student: " + s.getName() + " is Enrolled in CSC311 Programming!");
+        }
         
         return str;
     }
